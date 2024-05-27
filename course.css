@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #000;
+    color: #FFF;
+}
+
+a{
+    color: #cbd5e1;
+}
+
+ol, ul{
+    margin: 0; 
+    padding-left: 60px; 
+}
+
+h1, summary{
+    color: #bae6fd;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.extra summary{
+    margin: 15px 0;
+    padding: 0;
+
+}
+
+p{
+    padding-left: 30px; 
+}
+
+p, li{
+    color: #cbd5e1;
+    font-weight: 360;
+    font-size: 17.5px;
+    margin-bottom: 8px;
+    line-height: 19px;
+}
+
+.video, 
+.excel,
+.img_cp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 6px;
+}
+
+iframe{
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    min-height: 900px;
+    border-radius: 8px;
+}
+
+.img_cp img{
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 6px;
+}
+/*Barra de navegación*/
+.nav-ct {
+    background-color: #19283B;
+    width: 100%;
+    padding: 20px 125px;
+    color: #FFf;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.icon_principal a i{
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.nav-name img{
+    width: 50px;
+}
+
+.nav-name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+.nav-name h1{
+    font-size: 30px;
+    color: #FFF;
+}
+
+
+/*button*/
+.btn-continue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-continue button{
+    color: #cbd5e1;
+    background-color: #4f46e5;
+    width: 130px;
+    height: 40px;
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #4f46e5;
+    cursor: pointer;
+}
+
+.btn-continue button:hover {
+    opacity: 0.8; 
+}
+
+/*Concept*/
+.concept{
+    background-color:#0a0a0a;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    text-align: left;
+    padding: 40px 40px;
+    margin: 10px 80px;
+    overflow: hidden;
+}
+
+.extra section{
+    background-color:#171717;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    text-align: left;
+    padding: 20px 40px;
+    margin: 10px 80px;
+    overflow: hidden;
+}
+
+summary{
+    background-color:#171717;
+    padding: 15px 30px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
