@@ -4,9 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="¿Es digitalmente competente un docente que sabe usar un computador o una pizarra electrónica?¿Qué significa en realidad ser un profesor con competencias digitales?">
     <link rel="icon" type="image/png" href="/resources/logos/logo_edulearn.svg">
+    <meta charset="utf-8">
     <title>EduLearn</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="/styles/description.css">
+    <!--Library Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
 
@@ -29,10 +32,19 @@
             <div class="h_info">
                 <h1>Competencias Digitales Docentes</h1>
                 <p>¿Es digitalmente competente un docente que sabe usar un computador o una pizarra electrónica?¿Qué significa en realidad ser un profesor con competencias digitales?</p>
+                <p>
+                    <small>
+                        <strong>Palabras clave: </strong>Competencias, docentes y tecnologías
+                    </small>
+                </p>
                 <div class="date_language">
                     <div class="act-l">
                         <i class="fa-solid fa-business-time"></i>
                         <span>Última actualización: 5/2023</span>
+                    </div>
+                    <div class="act-l">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>1h 30min de duración</span>
                     </div>
                     <div class="act-l">
                         <i class="fa-solid fa-language"></i>
@@ -62,10 +74,12 @@
             </section>
 
             <section class="part2">
-                <h1>Requisitos</h1>
+                <h1>Instrucciones Básicas</h1>
                 <ul>
-                    <li>Contar con internet y un dispositivo (computadora/dispositivo móvil)</li>
-                    <li>Predisposición de aprender</li>
+                    <li><strong>Verifica tu conexión a Internet: </strong>Asegúrate de tener una conexión estable para evitar interrupciones.</li>
+                    <li><strong>Prepara tus dispositivos: </strong>Ten a mano un ordenador o un dispositivo móvil.</li>
+                    <li><strong>Acceder a la plataforma: </strong>Ingresa en la plataforma de EduLearn y familiarízate con la interfaz.</li>
+                    <li><strong>Organiza tu tiempo: </strong>Revisa el contenido del recurso y planifica tu horario para acceder en los momentos que tengas disponibles.</li>
                 </ul>
             </section>
         </article>
@@ -90,4 +104,11 @@
             </a>
         </div>
     </div>
+
+    <script>
+        ScrollReveal().reveal('.header-init');
+        ScrollReveal().reveal('.objects', {delay:200});
+        ScrollReveal().reveal('.description', {delay:100});
+        ScrollReveal().reveal('.learn', {delay:100});
+    </script>
 </body>
