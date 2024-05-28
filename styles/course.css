@@ -36,7 +36,6 @@ h1, summary{
 .extra summary{
     margin: 15px 0;
     padding: 0;
-
 }
 
 p{
@@ -170,4 +169,27 @@ summary{
     text-overflow: ellipsis;
 }
 
+/*Responsive*/
+@media (max-width:1115px){
+    h1, summary{
+        font-size: 20px;
+    }
+    
+    .nav-ct {
+        padding: 20px 40px;
+      }
+
+    .concept{
+        padding: 20px 20px;
+    }
+
+    .concept{
+        margin-left: 25px;
+        margin-right: 25px; 
+    }
+
+    .extra section{
+        margin: 10px 25px;
+    }
+}
 
