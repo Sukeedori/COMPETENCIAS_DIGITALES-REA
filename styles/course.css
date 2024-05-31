@@ -7,10 +7,6 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 body{
     background: #000;
     color: #FFF;
@@ -22,10 +18,10 @@ a{
 
 ol, ul{
     margin: 0; 
-    padding-left: 60px; 
+    padding-left: 30px; 
 }
 
-h1, summary{
+summary{
     color: #bae6fd;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -36,10 +32,6 @@ h1, summary{
 .extra summary{
     margin: 15px 0;
     padding: 0;
-}
-
-p{
-    padding-left: 30px; 
 }
 
 p, li{
@@ -190,6 +182,35 @@ summary{
 
     .extra section{
         margin: 10px 25px;
+    }
+}
+
+@media (max-width:920px){
+    .icon_principal a i{
+        font-size: 1.25rem;
+    }
+
+    .nav-name img{
+        width: 40px;
+    }
+    
+    .nav-name h1{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:540px){
+    .nav-ct {
+        padding: 15px 20px;
+    }
+
+    .nav-name img{
+        width: 35px;
+    }
+    
+    .nav-name h1{
+        font-size: 25px;
     }
 }
 
