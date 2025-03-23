@@ -132,6 +132,7 @@ ul li a:hover::after {
 	font-weight: bold;
 	border-radius: 8px;
 	border: 1px solid #6366f1;
+	cursor: pointer;
 }
 
 .imagen img {
@@ -149,7 +150,7 @@ ul li a:hover::after {
 	display: flex;
 	flex-direction: column;
 	width: 200px;
-	height: 300px;
+	height: 275px;
 	text-align: left;
 	background-color: #030712;
 	border-radius: 6px;
@@ -173,16 +174,28 @@ ul li a:hover::after {
 .description h1 {
 	font-size: 18px;
 	margin-bottom: 5px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
 }
 
 .description h2 {
 	font-size: 12px;
 	margin-bottom: 8px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
 }
 
 .description p {
 	font-size: 16px;
 	color: #6b7280;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
 }
 
 .btns {

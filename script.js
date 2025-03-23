@@ -20,6 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 ScrollReveal().reveal('.header-main');
-ScrollReveal().reveal('.cursos', {delay:200});
-ScrollReveal().reveal('.autores', {delay:100});
-ScrollReveal().reveal('.footer-end', {delay:100});
+ScrollReveal().reveal('.cursos', {delay:200, easing: 'ease-in-out', reset: true});
+ScrollReveal().reveal('.autores', {delay:100, easing: 'ease-in-out', reset: true});
+ScrollReveal().reveal('.footer-end', {delay:100, easing: 'ease-in-out', reset: true});
